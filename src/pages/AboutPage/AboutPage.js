@@ -5,7 +5,7 @@ const AboutPage = () => (
   <>
     <h3 className={css.about}>Fun facts about us</h3>
     <p className={css.aboutText}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum
       voluptatibus veniam ipsa similique laudantium, soluta ipsum aut dolorem
       sint libero, iste accusantium magni nihil tenetur error laboriosam placeat
       consequatur nobis incidunt illum alias laborum! Obcaecati error

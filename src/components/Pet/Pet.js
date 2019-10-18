@@ -3,13 +3,7 @@ import PropTypes from 'prop-types';
 import css from './Pet.module.css';
 
 const Pet = ({
-  image,
-  name,
-  age,
-  breed,
-  gender,
-  color,
-  description,
+  item: { image, name, age, breed, gender, color, description },
   onReturn,
 }) => {
   return (
@@ -41,13 +35,15 @@ const Pet = ({
 };
 
 Pet.propTypes = {
-  image: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  age: PropTypes.number.isRequired,
-  breed: PropTypes.string.isRequired,
-  gender: PropTypes.string.isRequired,
-  color: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  item: PropTypes.shape({
+    image: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    age: PropTypes.number.isRequired,
+    breed: PropTypes.string.isRequired,
+    gender: PropTypes.string.isRequired,
+    color: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  }).isRequired,
   onReturn: PropTypes.func.isRequired,
 };
 

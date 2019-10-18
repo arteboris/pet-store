@@ -2,13 +2,13 @@
   padding: 50px 50px;
 }
 
-.list{
+.list {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
 }
 
-.img{
+.img {
   height: 300px;
   object-fit: cover;
   border-radius: 10%;
@@ -33,7 +33,6 @@
   margin-bottom: 30px;
 }
 
-
 .item {
   list-style: none;
   font-size: 20px;
@@ -43,7 +42,7 @@
   margin-bottom: 30px;
 }
 
-.text{
+.text {
   display: block;
   margin: 0 auto;
   width: 800px;
